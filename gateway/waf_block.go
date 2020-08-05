@@ -67,7 +67,7 @@ body {
 <div class="block_div">
 <a href="http://www.janusec.com/" target="_blank" class="text-logo">JANUSEC</a>
 <hr>
-Reason: {{.VulnName}}, Policy ID: {{.PolicyID}}, by Janusec Application Gateway
+Reason: {{.VulnName}}, Policy ID: {{.PolicyID}}, by WAF Application Gateway
 </div>
 </body>
 </html>
