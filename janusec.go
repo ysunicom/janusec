@@ -46,9 +46,9 @@ func main() {
 	utils.InitLogger()
 	SetOSEnv()
 
-	utils.DebugPrintln("Janusec Application Gateway", data.Version, "Starting ...")
+	utils.DebugPrintln("SWAF Application Gateway", data.Version, "Starting ...")
 	if utils.Debug {
-		utils.DebugPrintln("Warning: Janusec is running in Debug mode.")
+		utils.DebugPrintln("Warning: SWAF is running in Debug mode.")
 	}
 	data.InitDAL()
 	if data.IsPrimary {
